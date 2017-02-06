@@ -19,6 +19,7 @@ namespace ConsoleApplication2
             nam = float.Parse(Console.ReadLine());
 
             Console.WriteLine("tuoi ={0}, nam ={1}", tuoi, nam);
+            
         }
     }
 }
