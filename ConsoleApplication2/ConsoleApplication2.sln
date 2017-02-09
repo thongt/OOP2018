@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc1_NhapXuat", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XacDinhLopIP", "XacDinhLopIP\XacDinhLopIP.csproj", "{D254519F-4F09-4707-B918-17CD91519A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mang1Chieu", "Mang1Chieu\Mang1Chieu.csproj", "{3A032C04-7E1F-4D30-9848-056DF26DAB1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mang1ChieuV2", "Mang1ChieuV2\Mang1ChieuV2.csproj", "{E42D5484-F175-440F-97ED-DEE18364F8B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D254519F-4F09-4707-B918-17CD91519A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D254519F-4F09-4707-B918-17CD91519A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D254519F-4F09-4707-B918-17CD91519A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A032C04-7E1F-4D30-9848-056DF26DAB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A032C04-7E1F-4D30-9848-056DF26DAB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A032C04-7E1F-4D30-9848-056DF26DAB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A032C04-7E1F-4D30-9848-056DF26DAB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42D5484-F175-440F-97ED-DEE18364F8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42D5484-F175-440F-97ED-DEE18364F8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42D5484-F175-440F-97ED-DEE18364F8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42D5484-F175-440F-97ED-DEE18364F8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
