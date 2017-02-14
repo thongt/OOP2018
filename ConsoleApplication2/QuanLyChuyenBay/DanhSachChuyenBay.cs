@@ -15,8 +15,9 @@ namespace QuanLyChuyenBay
             Them(new ChuyenBay("DaLat", "SaiGon", DateTime.Parse("2/14/2017"),true));
             Them(new ChuyenBay("DaLat", "HaNoi", DateTime.Parse("2/15/2017"), false));
             Them(new ChuyenBay("HaNoi", "Vinh", DateTime.Parse("2/15/2017"), true));
-            Them(new ChuyenBay("Vinh", "NhaTrang", DateTime.Parse("2/12/2017"), false));
-            Them(new ChuyenBay("NhaTrang", "DaNang", DateTime.Parse("2/15/2017"), true));
+            Them(new ChuyenBay("HaNoi", "Hue", DateTime.Parse("2/15/2017"), true));
+            Them(new ChuyenBay("Vinh", "DaNang", DateTime.Parse("2/12/2017"), false));
+            Them(new ChuyenBay("Hue", "DaNang", DateTime.Parse("2/15/2017"), true));
         }
         public void Them(ChuyenBay p)
         {
@@ -38,6 +39,23 @@ namespace QuanLyChuyenBay
             for (int i= 0; i < dsDich.length; i++)
             {
                 TimThongTinChuyenBay(dsDich[i], d);
+            }
+
+        }
+        public void TimThongTinChuyenBay(string s, string d, string path)
+        {
+            MangChuoi dsDich = TimDanhSachDichTheoNguon(s);
+            if (dsDich.length == 0) return;
+          //  Console.WriteLine("Danh sach duong \n" + dsDich);
+            if (dsDich.CoChua(d))
+            {
+                Console.WriteLine("Co chuyen " + path + "\\" + d);
+                return;
+            }
+            for (int i = 0; i < dsDich.length; i++)
+            {
+                string tam = path + "\\" + dsDich[i];
+                TimThongTinChuyenBay(dsDich[i], d, tam);
             }
 
         }

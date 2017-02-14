@@ -13,7 +13,7 @@ namespace QuanLyChuyenBay
             DanhSachChuyenBay cb = new DanhSachChuyenBay();
             cb.Nhap();
             Console.WriteLine(cb);
-            cb.TimThongTinChuyenBay("DaLat", "DaNang");
+            cb.TimThongTinChuyenBay("DaLat", "DaNang","Dalat");
             //Console.WriteLine(cb);
            // cb.SapXepGiamTheoNguon();
             //Console.WriteLine("\n"+cb);
