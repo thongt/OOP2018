@@ -11,6 +11,9 @@ namespace LopDoiTuong
         static void Main(string[] args)
         {
              PhanSo a = new PhanSo(1,2);
+            PhanSo b = a;
+            b.mau = 10;
+            Console.WriteLine(a);
             //// a.Nhap();
             // a.Xuat();
             //a.NghichDao();
@@ -47,10 +50,10 @@ namespace LopDoiTuong
             //    Console.WriteLine("Phan so "+ p);
 
 
-            MangPhanSo mang = new MangPhanSo();
-            mang.Nhap();
-            Console.WriteLine(mang);
-            Console.WriteLine("Tong phan so la " + mang.Tong());
+            //MangPhanSo mang = new MangPhanSo();
+            //mang.Nhap();
+            //Console.WriteLine(mang);
+            //Console.WriteLine("Tong phan so la " + mang.Tong());
             Console.ReadKey();
 
         }

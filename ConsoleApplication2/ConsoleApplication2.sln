@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LopDoiTuong", "LopDoiTuong\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyDanhBa", "QuanLyDanhBa\QuanLyDanhBa.csproj", "{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyChuyenBay", "QuanLyChuyenBay\QuanLyChuyenBay.csproj", "{EB3D2087-2215-47E9-B038-F7F79208C227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3D2087-2215-47E9-B038-F7F79208C227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3D2087-2215-47E9-B038-F7F79208C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3D2087-2215-47E9-B038-F7F79208C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3D2087-2215-47E9-B038-F7F79208C227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

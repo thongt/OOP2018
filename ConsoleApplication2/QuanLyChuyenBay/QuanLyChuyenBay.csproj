@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}</ProjectGuid>
+    <ProjectGuid>{EB3D2087-2215-47E9-B038-F7F79208C227}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuanLyDanhBa</RootNamespace>
-    <AssemblyName>QuanLyDanhBa</AssemblyName>
+    <RootNamespace>QuanLyChuyenBay</RootNamespace>
+    <AssemblyName>QuanLyChuyenBay</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DanhBa.cs" />
-    <Compile Include="KhachHang.cs" />
+    <Compile Include="ChuyenBay.cs" />
+    <Compile Include="DanhSachChuyenBay.cs" />
     <Compile Include="MangChuoi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
