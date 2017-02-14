@@ -26,7 +26,7 @@ namespace QuanLyChuyenBay
         }
         public override string ToString()
         {
-            return string.Format("Nguon:{0}|dich:{1}|thoi gian:{2} |tinh trang {3}", CanhLe(nguon,10), CanhLe(dich,10), CanhLe(thoiGianBay.ToString(),25), conCho?"Co":"Khong");
+            return string.Format("{0}|{1}|{2}|{3}", CanhLe(nguon,10), CanhLe(dich,10), CanhLe(thoiGianBay.ToString(),25), conCho?"Co":"Khong");
         }
     }
 }

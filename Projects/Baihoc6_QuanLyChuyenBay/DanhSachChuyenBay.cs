@@ -123,7 +123,8 @@ namespace QuanLyChuyenBay
         }
         public override string ToString()
         {
-            string s = "";
+            string s = "Nguon".PadRight(15,' ') + "Dich".PadRight(10,' ') + "Thoi Gian".PadRight(25, ' ')+"TinhTrang".PadRight(15, ' ');
+            s += "\n=============================================================";
             for (int i = 0; i < length; i++)
                 s += string.Format("\n{0})",i+1) + a[i];
             return s;
