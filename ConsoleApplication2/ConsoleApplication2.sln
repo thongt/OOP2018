@@ -5,17 +5,17 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc1_NhapXuat", "ConsoleApplication2\Baihoc1_NhapXuat.csproj", "{F35736F0-F438-4709-9175-CEB6C7DD8F77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XacDinhLopIP", "XacDinhLopIP\XacDinhLopIP.csproj", "{D254519F-4F09-4707-B918-17CD91519A88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc3_XacDinhLopIP", "XacDinhLopIP\Baihoc3_XacDinhLopIP.csproj", "{D254519F-4F09-4707-B918-17CD91519A88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mang1Chieu", "Mang1Chieu\Mang1Chieu.csproj", "{3A032C04-7E1F-4D30-9848-056DF26DAB1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc2_Mang1Chieu", "Mang1Chieu\Baihoc2_Mang1Chieu.csproj", "{3A032C04-7E1F-4D30-9848-056DF26DAB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mang1ChieuV2", "Mang1ChieuV2\Mang1ChieuV2.csproj", "{E42D5484-F175-440F-97ED-DEE18364F8B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc2_Mang1ChieuV2", "Mang1ChieuV2\Baihoc2_Mang1ChieuV2.csproj", "{E42D5484-F175-440F-97ED-DEE18364F8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LopDoiTuong", "LopDoiTuong\LopDoiTuong.csproj", "{60D5C7C5-BA28-4C28-8C71-4FFB614E5BBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc4_LopDoiTuong", "LopDoiTuong\Baihoc4_LopDoiTuong.csproj", "{60D5C7C5-BA28-4C28-8C71-4FFB614E5BBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyDanhBa", "QuanLyDanhBa\QuanLyDanhBa.csproj", "{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc5_QuanLyDanhBa", "QuanLyDanhBa\Baihoc5_QuanLyDanhBa.csproj", "{54D6FA1E-533C-41EE-8D3A-ED039EFDDB62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyChuyenBay", "QuanLyChuyenBay\QuanLyChuyenBay.csproj", "{EB3D2087-2215-47E9-B038-F7F79208C227}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc6_QuanLyChuyenBay", "QuanLyChuyenBay\Baihoc6_QuanLyChuyenBay.csproj", "{EB3D2087-2215-47E9-B038-F7F79208C227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
