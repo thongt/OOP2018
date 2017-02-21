@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc5_QuanLyDanhBa", "Bai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc6_QuanLyChuyenBay", "Baihoc6_QuanLyChuyenBay\Baihoc6_QuanLyChuyenBay.csproj", "{EB3D2087-2215-47E9-B038-F7F79208C227}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc7_KeThuav1", "Baihoc7_KeThuav1\Baihoc7_KeThuav1.csproj", "{CE863159-12FE-4FF5-8332-6C3B0B204336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiHoc7_DuAnHinhHoc", "BaiHoc7_DuAnHinhHoc\BaiHoc7_DuAnHinhHoc.csproj", "{CF89BD3F-01F7-492B-AC8F-2E36BCA8E27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc8_SuTruuTuong", "Baihoc8_SuTruuTuong\Baihoc8_SuTruuTuong.csproj", "{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +57,18 @@ Global
 		{EB3D2087-2215-47E9-B038-F7F79208C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3D2087-2215-47E9-B038-F7F79208C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3D2087-2215-47E9-B038-F7F79208C227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE863159-12FE-4FF5-8332-6C3B0B204336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE863159-12FE-4FF5-8332-6C3B0B204336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE863159-12FE-4FF5-8332-6C3B0B204336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE863159-12FE-4FF5-8332-6C3B0B204336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF89BD3F-01F7-492B-AC8F-2E36BCA8E27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF89BD3F-01F7-492B-AC8F-2E36BCA8E27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF89BD3F-01F7-492B-AC8F-2E36BCA8E27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF89BD3F-01F7-492B-AC8F-2E36BCA8E27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

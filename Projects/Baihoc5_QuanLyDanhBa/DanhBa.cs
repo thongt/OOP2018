@@ -94,6 +94,7 @@ namespace QuanLyDanhBa
                 kq.Them(a[i].Duong);
             return kq;
         }
+       
         public override string ToString()
         {
             string s = "";
