@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc1_NhapXuat", "Baihoc1_NhapXuat\Baihoc1_NhapXuat.csproj", "{F35736F0-F438-4709-9175-CEB6C7DD8F77}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiHoc7_DuAnHinhHoc", "BaiHoc7_DuAnHinhHoc\BaiHoc7_DuAnHinhHoc.csproj", "{CF89BD3F-01F7-492B-AC8F-2E36BCA8E27D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc8_SuTruuTuong", "Baihoc8_SuTruuTuong\Baihoc8_SuTruuTuong.csproj", "{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baihoc9_QLDangKyHocPhan", "Baihoc9_QLDangKyHocPhan\Baihoc9_QLDangKyHocPhan.csproj", "{33FA20E5-45A1-460D-A930-4C2097233875}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A8C8975-5017-4E6D-B5C6-F62518C1CB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FA20E5-45A1-460D-A930-4C2097233875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FA20E5-45A1-460D-A930-4C2097233875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FA20E5-45A1-460D-A930-4C2097233875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FA20E5-45A1-460D-A930-4C2097233875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

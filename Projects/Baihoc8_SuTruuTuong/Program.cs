@@ -14,6 +14,7 @@ namespace Baihoc8_SuTruuTuong
             DanhSachHinhHoc ds = new DanhSachHinhHoc();
             ds.Nhap();
             Console.WriteLine(ds);
+            Console.WriteLine(10);
 
             Console.ReadKey();
         }
