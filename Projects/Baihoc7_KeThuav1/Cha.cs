@@ -25,10 +25,10 @@ namespace Baihoc7_KeThuav1
             this.ho = ho;
             this.ten = ten;
         }
-        public void In()
-        {
-            base.In();
-            Console.WriteLine("Word");
-        }
+        //public void In()
+        //{
+        //    base.In();
+        //    Console.WriteLine("Word");
+        //}
     }
 }

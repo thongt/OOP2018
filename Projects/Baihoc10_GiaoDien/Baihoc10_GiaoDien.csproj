@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33FA20E5-45A1-460D-A930-4C2097233875}</ProjectGuid>
+    <ProjectGuid>{F4D65698-42FC-43C0-B4F7-B40BBBC01A98}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Baihoc9_QLDangKyHocPhan</RootNamespace>
-    <AssemblyName>Baihoc9_QLDangKyHocPhan</AssemblyName>
+    <RootNamespace>Baihoc10_GiaoDien</RootNamespace>
+    <AssemblyName>Baihoc10_GiaoDien</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DSKQDangKyHP.cs" />
-    <Compile Include="DSHocPhan.cs" />
-    <Compile Include="DSSinhVien.cs" />
-    <Compile Include="KQDangKyHP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HocPhan.cs" />
-    <Compile Include="QLDangKyHocPhan.cs" />
-    <Compile Include="SinhVien.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

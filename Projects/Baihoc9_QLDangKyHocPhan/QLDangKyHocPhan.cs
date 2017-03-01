@@ -35,8 +35,6 @@ namespace Baihoc9_QLDangKyHocPhan
             Console.WriteLine(ds.Xuat(dshp));
             Console.Write("Tong so tin chi la {0} LT={1} TH={2}", ds.ds.Sum(x=>x.hp.soTC),ds.ds.Sum(x => x.hp.lT), ds.ds.Sum(x => x.hp.tH));
 
-
-
         }
         public void XuatKQDKHPTheoMaSinhVien2(string masv)
         {
