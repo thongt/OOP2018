@@ -65,11 +65,16 @@ namespace Mang1ChieuV2
         static void NhapTuBanPhim(int[] mang, ref int length)
 
         {
+            //Hiện thông báo nhập chiều dài mảng
             Console.Write("\nNhap chieu dai mang ");
+            //Nhập một số nguyên từ bàn phím vào biến length
             length = int.Parse(Console.ReadLine());
+            //duyệt qua từng phần tử của mang để nhập giá trị nguyên cho nó
             for (int i = 0; i < length; i++)
             {
+                //Xuất giá trị a[i]= là mà hình
                 Console.Write("a[{0}]=", i);
+                //Nhập một số nguyên cho phần tử a[i]
                 mang[i] = int.Parse(Console.ReadLine());
             }
 
