@@ -56,6 +56,12 @@ namespace Mang1ChieuV2
             // Console.ReadKey();
 
         }
+        /// <summary>
+        /// Hàm nhập một mảng số nguyên
+        /// </summary>
+        /// <param name="mang"> mảng số nguyên</param>
+        /// <param name="ba">biến tham chiếu chứa chiều dài của mảng</param>
+        /// <returns>hàm không trả về giá trị</returns>
         static void NhapTuBanPhim(int[] mang, ref int length)
 
         {
